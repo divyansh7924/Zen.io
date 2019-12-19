@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Zen.io",
+    "version": "1.0",
+    "description": "Trun On Zen.io For Switch",
+    "icons": {
+        "48": "zen.png"
+    },
+    "browser_action": {
+        "default_icon": "zen.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "declarativeContent",
+        "activeTab",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
